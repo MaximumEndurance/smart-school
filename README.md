@@ -57,7 +57,6 @@ $ grunt
 Your application should run on the 3000 port so in your browser just go to [http://localhost:3000](http://localhost:3000)
                             
 That's it! your application should be running by now, to proceed with your development check the other sections in this documentation. 
-If you encounter any problem try the Troubleshooting section.
 
 ## Running in a secure environment
 To run your application in a secure manner you'll need to use OpenSSL and generate a set of self-signed certificates. Unix-based users can use the following commnad: 
