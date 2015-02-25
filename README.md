@@ -60,9 +60,11 @@ That's it! your application should be running by now, to proceed with your devel
 
 ## Running in a secure environment
 To run your application in a secure manner you'll need to use OpenSSL and generate a set of self-signed certificates. Unix-based users can use the following commnad: 
+
 ```
 $ sh generate-ssl-certs.sh
 ```
+
 ## Getting Started
 This application is built on top of MEANJS. There are a lot of stuff to understand, we recommend you'll go over the [Official Documentation](http://meanjs.org/docs.html). 
 In the docs we'll try to explain both general concepts of MEAN components and give you some guidelines to help you improve your development process. We tried covering as many aspects as possible, and will keep update it by your request, you can also help us develop the documentation better by checking out the *gh-pages* branch of this repository.
