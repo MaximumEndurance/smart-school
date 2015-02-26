@@ -40,13 +40,6 @@ module.exports = function(grunt) {
 				options: {
 					livereload: true
 				}
-			},
-			clientCSS: {
-				files: watchFiles.clientCSS,
-				tasks: ['csslint'],
-				options: {
-					livereload: true
-				}
 			}
 		},
 		jshint: {
@@ -55,14 +48,6 @@ module.exports = function(grunt) {
 				options: {
 					jshintrc: true
 				}
-			}
-		},
-		csslint: {
-			options: {
-				csslintrc: '.csslintrc',
-			},
-			all: {
-				src: watchFiles.clientCSS
 			}
 		},
 		uglify: {
@@ -167,7 +152,7 @@ module.exports = function(grunt) {
 	grunt.registerTask('secure', ['env:secure', 'lint', 'concurrent:default']);
 
 	// Lint task(s).
-	grunt.registerTask('lint', ['jshint', 'csslint']);
+	grunt.registerTask('lint', ['jshint']);
 
 	// Build task(s).
 	grunt.registerTask('build', ['lint', 'loadConfig', 'ngAnnotate', 'uglify', 'cssmin']);
