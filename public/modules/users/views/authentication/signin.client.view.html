@@ -8,6 +8,9 @@
 						<p><a class="btn btn-facebook"><span>Login via Facebook</span></a></p>
 						<p><a class="btn btn-twitter"><span>Login via Twitter</span></a></p>
 						<p><a class="btn btn-linkedin"><span>Login via LinkedIn</span></a></p>
+						<div data-ng-show="error" class="text-center text-danger">
+							<strong data-ng-bind="error"></strong>
+						</div>
 						<div class="text-with-hr">
 							<span>or use your username</span>
 						</div>
@@ -41,9 +44,6 @@
 						<a class="pull-left" href="/#!/password/forgot">Forgot Password?</a>
 						<a class="pull-right" href="/#!/signup">Sign Up!</a>
 						<div class="clearfix"></div>
-						<div data-ng-show="error" class="text-center text-danger">
-							<strong data-ng-bind="error"></strong>
-						</div>
 					</div>
 				</div><!--/row-->
 			</div>
