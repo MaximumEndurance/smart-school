@@ -1,5 +1,5 @@
 .content {
-	margin-top: 25px;
+	margin-top: 50px;
 }
 .undecorated-link:hover {
 	text-decoration: none;
@@ -470,7 +470,7 @@ blockquote.pull-right {
   top: 20px;
 }
 .navbar .navbar-nav .open a:focus {
-  background-color: #f2f4f8;
+  background-color: #B2B2B2;
 }
 .navbar .navbar-form {
   margin: 0;
